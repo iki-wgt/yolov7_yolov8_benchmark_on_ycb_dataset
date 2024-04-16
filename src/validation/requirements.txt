@@ -1,0 +1,8 @@
+pandas==1.5.3
+notebook==6.5.3
+matplotlib>=3.4.3
+fiftyone>=0.20.1
+scikit-learn>=0.24.2
+seaborn>=0.12.2
+opencv-python==4.5.5.64
+numpyencoder>=0.3.0

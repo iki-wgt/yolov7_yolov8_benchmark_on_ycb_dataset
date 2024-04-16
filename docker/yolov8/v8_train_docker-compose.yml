@@ -1,0 +1,24 @@
+version: '2.4'
+services:
+  yolov8_training:
+    container_name: train_yolov8
+    image: train_yolov8:latest
+    runtime: nvidia
+    build:
+      context: ../..
+      dockerfile: docker/yolov8/v8_train.Dockerfile
+    environment:
+      DISPLAY: $DISPLAY
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: compute,video,utility,graphics
+      QT_X11_NO_MITSHM: '1'
+    network_mode: host
+    restart: 'unless-stopped'
+    privileged: true
+    stdin_open: true
+    tty: true
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - $HOME/.Xauthority:/root/.Xauthority
+    command: tail -f /dev/null
+
