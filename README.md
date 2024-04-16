@@ -67,7 +67,7 @@ yolo mode=train task=detect model=train model=yolov8x.pt data=config/custom.yaml
 ```bash
 python3 main.py
 ```
-*Hint: If there are some problems, please write me an issue.*
+*Hint: If there are some problems, please write an issue.*
 
 ## Authors
 Samuel Hafner (@hafners)
