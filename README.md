@@ -71,3 +71,6 @@ python3 main.py
 
 ## Authors
 Samuel Hafner (@hafners)
+
+## Acknowledgment 
+Thanks to the contributors of the repo [review_object_detection_metrics](https://github.com/rafaelpadilla/review_object_detection_metrics), who made the mAP calculation easy. 
