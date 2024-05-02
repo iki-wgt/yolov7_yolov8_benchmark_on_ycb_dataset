@@ -31,7 +31,7 @@ To split the two datasets like I did in the paper, follow these steps:
 1. Download the YCB-Video and YCB-M Dataset
 2. Build and run the docker image of the yolov7_validation as described above.
 3. Add the two datasets as volume mount in the validation dataset compose.
-4. Adjust the `self.docker_traing_dataset_path` in which both dataset are stored in the `param_singleton.py` script.
+4. Adjust the `self.docker_training_dataset_path` in which both dataset are stored in `src/validation/param_singleton.py` script.
 3. In the directory `/root/src/validation` are two scripts called `ycbm_dataset.py` and `ycbv_dataset.py` these are used to split the datasets. 
 4. Before starting you have to adjust the paths in the inits of these scripts, e.g. where the splits has to be stored.
 5. Run the scripts.
