@@ -36,10 +36,8 @@ To split the two datasets like I did in the paper, follow these steps:
 4. Before starting you have to adjust the paths in the inits of these scripts, e.g. where the splits has to be stored.
 5. Run the scripts.
 
-Optionaly the splitted datasets can be found here: (Link rein, wenn ich dafür Speicher bekomme) 
-
 ### Own Created dataset
-The own created test dataset can be found here: (Link rein, wenn ich dafür Speicher bekomme) 
+The own created test dataset can be found here: [RD-Dataset](https://drive.google.com/drive/folders/1bxEZnvzxgoOYqXWQnR69ItC81-mzR0qn?usp=sharing)
 
 ## YOLOv7 training
 1. Run the yolov7_training image
